@@ -4,7 +4,7 @@ import numpy as np
 
 # Build safe file path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(BASE_DIR, "data", "orders.csv")
+file_path = os.path.join(BASE_DIR, "orders.csv")
 
 # Create empty lists
 order_id        = []
